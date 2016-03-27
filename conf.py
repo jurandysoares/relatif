@@ -36,11 +36,11 @@ source_suffix = '.rst'
 source_encoding = 'utf-8-sig'
 
 # General information about the project.
-project = u'The Sphinx Thesis Resource (sphinxtr)'
-author = u'Jeff Terrace'
-copyright = u'by %s, 2012.' % author
-version = '0.1'
-release = '0.1'
+project = u'{titulo}'
+author = u'{autor}'
+copyright = u'©%s, {ano}.' % author
+version = '1'
+release = '1'
 
 # Turns on numbered figures for HTML output
 number_figures = True
@@ -76,7 +76,7 @@ else:
 
 # A string of reStructuredText that will be included at the end of
 # every source file that is read.
-rst_epilog = open(os.path.join(CURDIR, 'epilog.rst'),'r').read().decode('utf8')
+rst_epilog = open(os.path.join(CURDIR, 'epilogo.rst'),'r').read().decode('utf8')
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -101,7 +101,7 @@ html_theme = 'sphinxdoc'
 html_title = "%s" % project
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = "Someone's PhD Thesis"
+html_short_title = project
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -183,6 +183,8 @@ htmlhelp_basename = 'htmlhelpoutput'
 ADDITIONAL_PREAMBLE = """
 \input{preamble._tex}
 \usepackage{sphinx}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
 """
 
 ADDITIONAL_FOOTER = """
@@ -191,7 +193,7 @@ ADDITIONAL_FOOTER = """
 
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'letterpaper',
+    'papersize': 'a4paper',
     
     # * gets passed to \documentclass
     # * default options are single sided, double spaced

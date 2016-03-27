@@ -8,30 +8,30 @@ sphinxtr: |br| The Sphinx Thesis Resource
 
 .. only:: not singlehtml
 
-    Preamble
-    --------
+    Prefácio
+    ---------
 
 .. toctree::
 
-    abstract
-    acknowledgements
-    dedication
+    resumo
+    agradecimentos
+    dedicatoria.rst
 
 .. only:: not singlehtml
 
-    Table of Contents
+    Sumário
     -----------------
 
-.. include:: toc.txt
+.. include:: sumario.rst
 
 .. toctree::
 
-    bibliography
+    bibliografia
 
-License
--------
+Licença
+--------
 
-This work is licensed under a `Creative Commons Attribution 3.0 United States
+Este trabalho está licenciado sob a licença `Creative Commons Attribution 3.0 United States
 License <http://creativecommons.org/licenses/by/3.0/us/deed.en_US>`_.
 
 .. image:: img/ccicon88x31.png

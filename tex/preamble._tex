@@ -6,15 +6,15 @@
 \newcommand{\proquestmode}{}
 
 \abstract{
-\input{abstract.inc}
+\input{resumo.inc}
 }
 
 \acknowledgements{
-\input{acknowledgements.inc}
+\input{agradecimentos.inc}
 }
 
 \dedication{
-\input{dedication.inc}
+\input{dedicatoria.inc}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
