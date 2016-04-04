@@ -1,13 +1,13 @@
 .. _ch-lists:
 
-*****
-Lists
-*****
+******
+Listas
+******
 
 This is a few examples of different list types.
 
-Unordered Lists
-===============
+Listas Desordenadas
+===================
 
 * item 1
 * item 2
@@ -17,8 +17,8 @@ Unordered Lists
 
 * item 5
 
-Ordered Lists
-=============
+Listas Ordenadas
+================
 
 #. item 1
 #. item 2
@@ -28,7 +28,7 @@ Ordered Lists
 
 #. item 5
 
-Description Lists
+Listas de Descriçoes
 =================
 
 term1
@@ -38,8 +38,8 @@ term2
 term3
   definition 3
 
-Mixed
-=====
+Misturado
+=========
 
 term
   definition

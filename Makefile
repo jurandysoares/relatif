@@ -103,9 +103,11 @@ latex:
 	@echo "Build finished; the LaTeX files are in $(BUILDDIR)/latex."
 	@echo "Run \`make' in that directory to run these through (pdf)latex" \
 	      "(use \`make latexpdf' here to do that automatically)."
+	sed -i 's/\({babel}\)/[brazil]\1/g' _build/latex/thesis.tex
 
 latexpdf:
 	$(SPHINXBUILD) -t latex -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	sed -i 's/\({babel}\)/[brazil]\1/g' _build/latex/thesis.tex
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex clean
 	$(MAKE) -C $(BUILDDIR)/latex

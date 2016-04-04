@@ -1,7 +1,7 @@
 .. _ch-typography:
 
 **********
-Typography
+Tipografia
 **********
 
 This chapter has typography stuff. This also shows how to have a toctree inside

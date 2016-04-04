@@ -1,8 +1,8 @@
 .. _ch-math:
 
-****
-Math
-****
+***********
+Matemática
+***********
 
 Math uses latex math syntax:
 

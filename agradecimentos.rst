@@ -2,7 +2,7 @@
 
 .. only:: html or text
 
-    Acknowledgements
+    Agradecimentos
     ================
 
 Thanks to Sphinx for a kickass build system and docutils for the groundwork of

@@ -2,7 +2,7 @@
 
 .. only:: html or text
 
-    Dedication
-    ----------
+    Dedicatória
+    ------------
 
 To my parents.

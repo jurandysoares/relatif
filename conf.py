@@ -9,6 +9,9 @@ sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'extens
 import html_mods
 import latex_mods
 
+# Added by Jurandy
+language = 'pt_BR'
+
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
@@ -184,8 +187,8 @@ ADDITIONAL_PREAMBLE = """
 \input{preamble._tex}
 \usepackage{sphinx}
 \usepackage[utf8]{inputenc}
-\usepackage[brazil]{babel}
 """
+#\usepackage[brazil]{babel}
 
 ADDITIONAL_FOOTER = """
 \input{footer._tex}

@@ -1,7 +1,7 @@
 .. _ch-intro:
 
 ************
-Introduction
+Introdução
 ************
 
 Creating a PhD thesis is typically done using LaTeX. This works really well for

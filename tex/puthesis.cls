@@ -80,19 +80,21 @@
   \vspace{.6in}
   \extravspace{.6in}
   \begin{center}
-    A Dissertation \\
-    Presented to the Faculty \\
-    of Princeton University \\
-    in Candidacy for the Degree \\
-    of Doctor of Philosophy
+    Relatório Técnico \\
+    Apresentado ao Campus Parnamirim \\
+    do Instituto Federal de Educação, \\
+    Ciência e Tecnologia do \\
+    Rio Grande do Norte \\
+    para Conclusão do Curso Técnico Subsequente \\
+    de Redes de Computadores
   \end{center}
   \vspace{.3in}
   \extravspace{.3in}
   \begin{center}
-    Recommended for Acceptance \\
-    by the \@deptpref \\
+    Recomendado para Aceitação\\
+    pelo \@deptpref \\
     \@dept \\
-    Adviser: \@adviser
+    Orientador: \@adviser
   \end{center}
   \vspace{.3in}
   \extravspace{.3in}
@@ -119,9 +121,9 @@
   \clearpage}
 \newcommand*{\makeabstract}{
   \newpage
-  \addcontentsline{toc}{section}{Abstract}
+  \addcontentsline{toc}{section}{Resumo}
   \begin{center}
-  \Large \textbf{Abstract}
+  \Large \textbf{Resumo}
   \end{center}
   \@abstract
   \clearpage
@@ -135,9 +137,9 @@
     \else
     \fi
 
-    \addcontentsline{toc}{section}{Acknowledgements}
+    \addcontentsline{toc}{section}{Agradecimentos}
     \begin{center}
-      \Large \textbf{Acknowledgements}
+      \Large \textbf{Agradecimentos}
     \end{center}
     \@acknowledgements
     \clearpage
@@ -159,14 +161,14 @@
     \phantomsection
   \else
   \fi
-  \addcontentsline{toc}{section}{List of Tables}\listoftables}}
+  \addcontentsline{toc}{section}{Lista de Tabelas}\listoftables}}
 \DeclareOption{lof}{\renewcommand*{\makelof}{
   \ifdefined\phantomsection
     % makes hyperref recognize this section properly for pdf links
     \phantomsection
   \else
   \fi
-  \addcontentsline{toc}{section}{List of Figures}\listoffigures}}
+  \addcontentsline{toc}{section}{Lista de Imagens}\listoffigures}}
 \DeclareOption{los}{
   \renewcommand*{\makelos}{
     \RequirePackage{losymbol}
@@ -177,7 +179,7 @@
     \phantomsection
   \else
   \fi
-    \addcontentsline{toc}{section}{List of Symbols}
+    \addcontentsline{toc}{section}{Lista de Símbolos}
   }
 }
 \DeclareOption{singlespace}{

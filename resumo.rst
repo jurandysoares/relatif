@@ -2,7 +2,7 @@
 
 .. only:: html or text
 
-    Abstract
+    Resumo
     ========
 
 This project is a collection of extensions and monkey patches to Sphinx to

@@ -1,11 +1,11 @@
 .. _ch-figs:
 
 ******************
-Imagens e Tabelas
+Figures and Tables
 ******************
 
-Imagens Vetorias SVG
-====================
+Vector SVG Figures
+==================
 
 Vector figures are nicely supported. You should have a PDF file and an SVG
 file. The PDF will be used for the latex output and the SVG for the HTML
@@ -24,7 +24,7 @@ See an example in Figure |nbsp| :num:`fig-sirikata-overview`. I suggest making
 figures in something like Inkscape. If you have only a vector PDF, you can use
 pdf2svg to convert (``brew install pdf2svg`` or ``apt-get install pdf2svg``).
 
-Imagens
+Image Figures
 =============
 
 Regular rasterized images work fine too.
@@ -40,7 +40,7 @@ Regular rasterized images work fine too.
 
 A PNG example is shown in Figure |nbsp| :num:`fig-open3dhub-icons`.
 
-Subimagens
+Subfigures
 ==========
 
 The subfigure directives allow you to place multiple figures side-by-side in
